@@ -1717,12 +1717,12 @@ input, select, textarea {
 	}
 
 	header.major {
-		padding-bottom: 2em;
+		padding-bottom: 0em;
 	}
 
 	header.special {
-		margin-bottom: 5em;
-		padding-top: 7em;
+		margin-bottom: 0em;
+		padding-top: 0em;
 		position: relative;
 		text-align: center;
 	}
