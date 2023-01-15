@@ -2531,10 +2531,6 @@ input, select, textarea {
 		padding: 6em 0;
 		text-align: center;
 	}
-	#banner.img {
-		filter: blur 8px ;
-
-	}
 
 		#banner .inner {
 			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
