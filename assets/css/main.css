@@ -1847,6 +1847,7 @@ input, select, textarea {
 
 		.image:before {
 			background: url("images/overlay.png");
+			opacity: 0.4;
 			content: '';
 			height: 100%;
 			left: 0;
@@ -1872,6 +1873,7 @@ input, select, textarea {
 			.image.featured img {
 				display: block;
 				width: 100%;
+				opacity: 1;
 			}
 
 /* Icon */
@@ -1977,7 +1979,7 @@ input, select, textarea {
 			cursor: default;
 			display: block;
 			margin: 0 0 1.5em 0;
-			opacity: 0.35;
+			opacity: 0.1;
 			text-align: center;
 		}
 
