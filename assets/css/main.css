@@ -2532,8 +2532,20 @@ input, select, textarea {
 		padding: 6em 0;
 		text-align: center;
 	}
+	#banner2 {
+		background-attachment: scroll, scroll, scroll, fixed;
+		background-color: #645862;
+		background-image: url("../../images/town.png");
+		background-size: cover;
+		background-position: bottom left, bottom right, top left, top center;
+		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+		color: #fff;
+		cursor: default;
+		padding: 6em 0;
+		text-align: center;
+	}
 
-		#banner .inner {
+		#banner .inner, #banner2 .inner {
 			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
 			-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
 			-ms-animation: reveal-banner 1s 0.25s ease-in-out;
@@ -2550,7 +2562,7 @@ input, select, textarea {
 			text-align: center;
 		}
 
-			#banner .inner header {
+			#banner .inner header, #banner2 .inner header {
 				display: inline-block;
 				border-bottom: solid 2px;
 				border-top: solid 2px;
@@ -2558,7 +2570,7 @@ input, select, textarea {
 				padding: 3px 0 3px 0;
 			}
 
-				#banner .inner header h2 {
+				#banner .inner header h2, #banner2 .inner header h2 {
 					border-bottom: solid 2px;
 					border-top: solid 2px;
 					font-size: 2.5em;
@@ -2570,21 +2582,22 @@ input, select, textarea {
 					text-transform: uppercase;
 				}
 
-			#banner .inner p {
+			#banner .inner p, #banner2 .inner p {
 				letter-spacing: 0.1em;
 				margin: 0;
 				text-transform: uppercase;
 			}
 
-				#banner .inner p a {
+				#banner .inner p a, #banner2 .inner p a {
 					color: inherit;
 					font-weight: 400;
 					text-decoration: none;
 				}
 
-			#banner .inner footer {
+			#banner .inner footer, #banner2 .inner footer {
 				margin: 2em 0 0 0;
 			}
+			
 
 /* Main */
 
@@ -2592,7 +2605,7 @@ input, select, textarea {
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
-		padding: 7em 0;
+		padding: 3em 0;
 	}
 
 		#main > :last-child {
@@ -2724,7 +2737,7 @@ input, select, textarea {
 
 		/* Banner */
 
-			#banner {
+			#banner, #banner2 {
 				background-attachment: scroll;
 			}
 
@@ -2799,8 +2812,8 @@ input, select, textarea {
 
 		/* Banner */
 
-			#banner {
-				background-size: 100%;
+			#banner, #banner2 {
+				background-size: cover;
 			}
 
 		/* Main */
@@ -2903,7 +2916,7 @@ input, select, textarea {
 
 		/* Banner */
 
-			#banner {
+			#banner, #banner2 {
 				margin: 0;
 				background-size: cover;
 			}
@@ -3255,26 +3268,26 @@ input, select, textarea {
 
 		/* Banner */
 
-			#banner {
+			#banner, #banner2 {
 				background-size: cover;
 				padding: 6em 0;
 			}
 
-				#banner .inner {
+				#banner .inner, #banner2 .inner {
 					background: rgba(0, 0, 0, 0.3);
 					display: block;
 					padding: 1 1.5em;
 				}
 
-					#banner .inner header h2 {
+					#banner .inner header h2, #banner2 .inner header h2 {
 						font-size: 1.5em;
 					}
 
-					#banner .inner p {
+					#banner .inner p, #banner2 .inner p {
 						text-align: center;
 					}
 
-					#banner .inner br {
+					#banner .inner br, #banner2 .inner br {
 						display: none;
 					}
 
