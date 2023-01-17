@@ -2209,7 +2209,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-image: url("../../images/h3.jpeg");
+			background-image: url("../../images/pool.png");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
 			background-size: cover;
@@ -2523,7 +2523,7 @@ input, select, textarea {
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("../../images/h2.jpeg");
+		background-image: url("../../images/view.png");
 		background-size: 100%;
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
