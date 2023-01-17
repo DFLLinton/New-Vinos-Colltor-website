@@ -106,7 +106,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		color: #c5d7eb;
+		color: #6f99c8;
 		text-decoration: none;
 	}
 
@@ -1807,7 +1807,7 @@ input, select, textarea {
 		input[type="password"]:focus,
 		input[type="email"]:focus,
 		textarea:focus {
-			border-color: #c5d7eb;
+			border-color: #6f99c8;
 		}
 
 	input[type="text"],
@@ -2164,8 +2164,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		button.primary,
 		.button.primary {
-			background: #c5d7eb;
-			border-color: #c5d7eb;
+			background: #6f99c8;
+			border-color: #6f99c8;
 			color: #fff !important;
 		}
 
@@ -2174,8 +2174,8 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background: rgba(197, 215, 235, 0.7) !important;
-				border-color: rgba(197, 215, 235, 1) !important;
+				background: rgba(111, 153, 200, 0.7) !important;
+				border-color: rgba(111, 153, 200, 0.7) !important;
 				color: white !important;
 			}
 
@@ -2231,7 +2231,7 @@ input, select, textarea {
 			.wrapper.style2 .button.primary {
 				background: #fff;
 				border-color: #fff;
-				color: #c5d7eb !important;
+				color: #6f99c8 !important;
 			}
 
 				.wrapper.style2 input[type="button"].primary:hover,
@@ -2470,7 +2470,7 @@ input, select, textarea {
 			}
 
 			.dropotron > li:hover > a {
-				background: #c5d7eb;
+				background: #6f99c8;
 				color: #fff;
 			}
 
