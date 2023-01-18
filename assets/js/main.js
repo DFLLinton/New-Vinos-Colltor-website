@@ -94,3 +94,7 @@
 		}
 
 })(jQuery);
+
+function makeSpanish(){
+	document.getElementById("subtitle1").innerHTML = "Esto es Colltor, un viñedo, masía y destino turístico"
+}
