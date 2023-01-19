@@ -117,11 +117,53 @@ function makeSpanish(pagestring){
 		document.getElementById("button5").innerHTML = "El Booking.com"
 	}if(pagestring == 'yurt'){
 		document.getElementById("title").innerHTML = "El Yurt"
-		document.getElementById("subtitle").innerHTML = "Puedes ayudar en el yurt por favor"
+		document.getElementById("subtitle").innerHTML = "Puedes alojar en el yurt por favor"
 		document.getElementById("para1").innerHTML = "reservar"
 		document.getElementById("para2").innerHTML = "reservar eso por favor"
 		document.getElementById("para3").innerHTML = "reservar aqui por favor"
 		document.getElementById("subtitle2").innerHTML = "los facilities"
+
+
+	}if(pagestring == 'farmhouse'){
+		document.getElementById("title").innerHTML = "El Yurt"
+		document.getElementById("subtitle").innerHTML = "Puedes alojar en el yurt por favor"
+		document.getElementById("para1").innerHTML = "reservar"
+		document.getElementById("para2").innerHTML = "reservar eso por favor"
+		document.getElementById("para3").innerHTML = "reservar aqui por favor"
+		document.getElementById("para4").innerHTML = "reservar aqui por favor"
+		document.getElementById("subtitle2").innerHTML = "los facilities"
+
+	}if(pagestring == 'vineyard'){
+		document.getElementById("title").innerHTML = "El Yurt"
+		document.getElementById("subtitle").innerHTML = "Puedes alojar en el yurt por favor"
+		document.getElementById("para1").innerHTML = "reservar"
+		document.getElementById("para2").innerHTML = "reservar eso por favor"
+		document.getElementById("para3").innerHTML = "reservar aqui por favor"
+		document.getElementById("para4").innerHTML = "reservar aqui por favor"
+		document.getElementById("subtitle2").innerHTML = "los facilities"
+
+
+	}if(pagestring == 'tourist'){
+		document.getElementById("title").innerHTML = "El Yurt"
+		document.getElementById("subtitle").innerHTML = "Puedes alojar en el yurt por favor"
+		document.getElementById("para1").innerHTML = "reservar"
+		document.getElementById("para2").innerHTML = "reservar eso por favor"
+		document.getElementById("para3").innerHTML = "reservar aqui por favor"
+		document.getElementById("subtitle2").innerHTML = "los facilities"
+
+
+	}if(pagestring == 'contact'){
+		document.getElementById("title").innerHTML = "El Yurt"
+		document.getElementById("subtitle").innerHTML = "Puedes alojar en el yurt por favor"
+		document.getElementById("button1").innerHTML = "reservar"
+		document.getElementById("button2").innerHTML = "reservar eso por favor"
+		document.getElementById("button3").innerHTML = "reservar aqui por favor"
+		document.getElementById("subtitle2").innerHTML = "los facilities"
+		document.getElementById("para1").innerHTML = "reservar aqui por favor"
+		document.getElementById("para2").innerHTML = "reservar aqui por favor"
+		document.getElementById("para3").innerHTML = "reservar aqui por favor"
+		document.getElementById("para4").innerHTML = "reservar aqui por favor"
+		document.getElementById("para5").innerHTML = "reservar aqui por favor"
 
 
 	}else{}
