@@ -1,7 +1,7 @@
 on: 
 push:
 branches:
-master
+ - master
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
@@ -17,3 +17,4 @@ jobs:
         server: ftp://www.vinoscolltor.com/
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
+        server-dir: /working.vinoscolltor.com/
