@@ -97,6 +97,26 @@
 
 function makeSpanish(pagestring){
 	if(pagestring == 'index'){
+		document.getElementById("menu").innerHTML = "Menú"
+		document.getElementById("menuitem1").innerHTML = "La Masía"
+		document.getElementById("menuitem2").innerHTML = "El Viñedo"
+		document.getElementById("menuitem3").innerHTML = "La Yurta"
+		document.getElementById("menuitem4").innerHTML = "Destino Turistico"
+		document.getElementById("menuitem5").innerHTML = "Contacto"
+		document.getElementById("menuitem6").innerHTML = "Idiomas"
+		document.getElementById("menuitem7").innerHTML = "Inglés"
+		document.getElementById("menuitem8").innerHTML = "Español"
+		document.getElementById("menuitem9").innerHTML = "Catalán"
+		document.getElementById("menuitem10").innerHTML = "Reservar"
+
+
+
+
+
+
+
+
+
 		document.getElementById("subtitle1").innerHTML = "Esto es Colltor, un viñedo, masía y destino turístico"
 		document.getElementById("button1").innerHTML = "Book aqui"
 		document.getElementById("header1").innerHTML = "Esto es muy bien"
