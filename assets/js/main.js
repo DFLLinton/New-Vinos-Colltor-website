@@ -95,6 +95,34 @@
 
 })(jQuery);
 
-function makeSpanish(){
-	document.getElementById("subtitle1").innerHTML = "Esto es Colltor, un viñedo, masía y destino turístico"
-}
+function makeSpanish(pagestring){
+	if(pagestring == 'index'){
+		document.getElementById("subtitle1").innerHTML = "Esto es Colltor, un viñedo, masía y destino turístico"
+		document.getElementById("button1").innerHTML = "Book aqui"
+		document.getElementById("header1").innerHTML = "Esto es muy bien"
+		document.getElementById("para1").innerHTML = "Esto es muy bien y creo que es el mejor"
+		document.getElementById("header2").innerHTML = "Esto es muy bien y creo que es el mejor"
+		document.getElementById("para2").innerHTML = "Esto es muy bien y creo que es el mejor"
+		document.getElementById("button2").innerHTML = "Book aqui"
+		document.getElementById("subtitle1").innerHTML = "El Farmhouse"
+		document.getElementById("subtitle2").innerHTML = "Los vineas"
+		document.getElementById("subtitle3").innerHTML = "El yurt"
+		document.getElementById("subpara1").innerHTML = "El yurt"
+		document.getElementById("subpara2").innerHTML = "El yurt"
+		document.getElementById("subpara3").innerHTML = "El yurt"
+		document.getElementById("ctatitle").innerHTML = "Book Aqui"
+		document.getElementById("ctapara").innerHTML = "Reserver tus datos aqui por favor"
+		document.getElementById("button3").innerHTML = "Reservar"
+		document.getElementById("button4").innerHTML = "Air b y b"
+		document.getElementById("button5").innerHTML = "El Booking.com"
+	}if(pagestring == 'yurt'){
+		document.getElementById("title").innerHTML = "El Yurt"
+		document.getElementById("subtitle").innerHTML = "Puedes ayudar en el yurt por favor"
+		document.getElementById("para1").innerHTML = "reservar"
+		document.getElementById("para2").innerHTML = "reservar eso por favor"
+		document.getElementById("para3").innerHTML = "reservar aqui por favor"
+		document.getElementById("subtitle2").innerHTML = "los facilities"
+
+
+	}else{}
+	}
