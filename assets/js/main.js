@@ -95,6 +95,9 @@
 
 })(jQuery);
 
+
+  
+
 // function makeSpanish(pagestring){
 // 	if(pagestring == 'index'){
 // 		document.getElementById("menu").innerHTML = "Menú"
