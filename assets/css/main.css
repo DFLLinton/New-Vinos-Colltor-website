@@ -3359,6 +3359,7 @@ input, select, textarea {
 			#banner, #banner2 {
 				background-size: cover;
 				padding: 6em 0;
+				background-position: 45%;
 			}
 
 				#banner .inner, #banner2 .inner {
