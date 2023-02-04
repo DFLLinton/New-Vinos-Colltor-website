@@ -3009,6 +3009,7 @@ input, select, textarea {
 			#banner, #banner2 {
 				margin: 0;
 				background-size: cover;
+				background-position: 45%;
 			}
 
 		/* Wrapper */
@@ -3360,14 +3361,15 @@ input, select, textarea {
 
 			#banner, #banner2 {
 				background-size: cover;
-				padding: 6em 0;
+				padding: 2em 0;
 				background-position: 45%;
 			}
 
 				#banner .inner, #banner2 .inner {
 					background: rgba(0, 0, 0, 0.3);
 					display: block;
-					padding: 1 1.5em;
+					padding: 1em;
+					font-size: 11pt;
 				}
 
 					#banner .inner header h2, #banner2 .inner header h2 {
