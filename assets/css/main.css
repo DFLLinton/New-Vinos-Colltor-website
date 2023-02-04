@@ -2941,7 +2941,7 @@ input, select, textarea {
 
 			header.special {
 				margin-bottom: 4em;
-				padding-top: 5em;
+				padding-top: 1em;
 			}
 
 				header.special:before, header.special:after {
@@ -3361,7 +3361,7 @@ input, select, textarea {
 
 			#banner, #banner2 {
 				background-size: cover;
-				padding: 2em 0;
+				padding: 4em 0;
 				background-position: 45%;
 			}
 
